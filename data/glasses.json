@@ -1,0 +1,102 @@
+[
+  {
+    "id": "gl001",
+    "category": "Очки",
+    "subcategory": "Солнцезащитные",
+    "brand": "Ray-Ban",
+    "name": "Aviator Classic",
+    "description": "Классические очки-авиаторы, которые никогда не выходят из моды.",
+    "characteristics": {
+      "материал оправы": "металл",
+      "цвет линз": "зеленый",
+      "UV-защита": "100%"
+    },
+    "quantity": 15,
+    "price": 15000,
+    "discount": 10,
+    "images": [
+      "media/products/gl001-1.jpg",
+      "media/products/gl001-2.jpg"
+    ]
+  },
+  {
+    "id": "gl002",
+    "category": "Очки",
+    "subcategory": "Для зрения",
+    "brand": "Prada",
+    "name": "Minimal-Baroque",
+    "description": "Элегантная оправа для зрения с уникальным дизайном.",
+    "characteristics": {
+      "материал оправы": "ацетат",
+      "цвет оправы": "черный",
+      "форма": "бабочка"
+    },
+    "quantity": 8,
+    "price": 25000,
+    "discount": 0,
+    "images": [
+      "media/products/gl002-1.jpg",
+      "media/products/gl002-2.jpg"
+    ]
+  },
+  {
+    "id": "gl003",
+    "category": "Очки",
+    "subcategory": "Для компьютера",
+    "brand": "GamerView",
+    "name": "Cyber Shield",
+    "description": "Очки для компьютера, блокирующие синий свет и снижающие усталость глаз.",
+    "characteristics": {
+      "материал оправы": "пластик",
+      "цвет линз": "прозрачный с желтым оттенком",
+      "покрытие": "антибликовое"
+    },
+    "quantity": 30,
+    "price": 7000,
+    "discount": 15,
+    "images": [
+      "media/products/gl003-1.jpg",
+      "media/products/gl003-2.jpg"
+    ]
+  },
+  {
+    "id": "gl004",
+    "category": "Очки",
+    "subcategory": "Солнцезащитные",
+    "brand": "Oakley",
+    "name": "Holbrook",
+    "description": "Спортивные и стильные солнцезащитные очки для активного образа жизни.",
+    "characteristics": {
+      "материал оправы": "O Matter™",
+      "цвет линз": "Prizm Sapphire",
+      "UV-защита": "100%"
+    },
+    "quantity": 20,
+    "price": 18000,
+    "discount": 5,
+    "images": [
+      "media/products/gl004-1.jpg",
+      "media/products/gl004-2.jpg"
+    ]
+  },
+  {
+    "id": "gl005",
+    "category": "Очки",
+    "subcategory": "Оправы",
+    "brand": "Tom Ford",
+    "name": "TF5401",
+    "description": "Изысканная оправа, которая подчеркнет ваш стиль и статус.",
+    "characteristics": {
+      "материал оправы": "ацетат",
+      "цвет оправы": "темный гавана",
+      "форма": "квадратная"
+    },
+    "quantity": 12,
+    "price": 22000,
+    "discount": 0,
+    "images": [
+      "media/products/gl005-1.jpg",
+      "media/products/gl005-2.jpg"
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "cp001",
+    "category": "Средства для ухода",
+    "subcategory": "Тряпочки из замши",
+    "brand": "CleanLens",
+    "name": "Suede Pro",
+    "description": "Высококачественная тряпочка из натуральной замши для идеальной чистоты линз.",
+    "characteristics": {
+      "материал": "натуральная замша",
+      "размер": "15x15 см"
+    },
+    "quantity": 200,
+    "price": 500,
+    "discount": 0,
+    "images": [
+      "media/products/cp001-1.jpg",
+      "media/products/cp001-2.jpg"
+    ]
+  },
+  {
+    "id": "cp002",
+    "category": "Средства для ухода",
+    "subcategory": "Спреи для отчистки линз",
+    "brand": "VisionClear",
+    "name": "Crystal Spray",
+    "description": "Спрей для быстрой и эффективной очистки линз без разводов.",
+    "characteristics": {
+      "объем": "30 мл",
+      "формула": "антистатик, без спирта"
+    },
+    "quantity": 150,
+    "price": 700,
+    "discount": 5,
+    "images": [
+      "media/products/cp002-1.jpg",
+      "media/products/cp002-2.jpg"
+    ]
+  }
+]

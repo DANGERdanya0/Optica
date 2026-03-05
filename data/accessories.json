@@ -1,0 +1,40 @@
+[
+  {
+    "id": "ac001",
+    "category": "Аксессуары",
+    "subcategory": "цепочки для очков",
+    "brand": "Chains&Co",
+    "name": "Silver Link",
+    "description": "Элегантная серебряная цепочка для очков.",
+    "characteristics": {
+      "материал": "серебро 925 пробы",
+      "длина": "70 см"
+    },
+    "quantity": 50,
+    "price": 3500,
+    "discount": 0,
+    "images": [
+      "media/products/ac001-1.jpg",
+      "media/products/ac001-2.jpg"
+    ]
+  },
+  {
+    "id": "ac002",
+    "category": "Аксессуары",
+    "subcategory": "кейсы для очков",
+    "brand": "CaseLogic",
+    "name": "Hard Shell",
+    "description": "Прочный и стильный кейс для защиты ваших очков.",
+    "characteristics": {
+      "материал": "поликарбонат",
+      "цвет": "черный"
+    },
+    "quantity": 100,
+    "price": 1500,
+    "discount": 0,
+    "images": [
+      "media/products/ac002-1.jpg",
+      "media/products/ac002-2.jpg"
+    ]
+  }
+]
