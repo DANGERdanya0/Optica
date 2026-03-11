@@ -1,101 +1,235 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DIVOptica - Главная</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/auth.css">
-    <link rel="stylesheet" href="css/cart.css">
-    <link rel="stylesheet" href="css/admin.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
     <header class="site-header">
-        <div class="header-container">
-            <div class="header-left">
-                <button class="menu-toggle">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4 6H20M4 12H20M4 18H20" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </button>
-                <nav class="side-menu">
-                    <a href="branchs.html">Филиалы</a>
-                    <a href="support.html">Поддержка</a>
-                </nav>
-                <a href="shop.html">Каталог</a>
-                <a href="healty.html">Здоровье</a>
-            </div>
-            <div class="logo">
-                <a href="index.html">DIVOptica</a>
-            </div>
-            <div class="header-right">
-                <a href="info.html">О нас</a>
-                <a href="service.html">Сервис</a>
-                <button class="account-button">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12ZM12 12C10.6739 12 9.40215 12.5268 8.46447 13.4645C7.52678 14.4021 7 15.6739 7 17V20H17V17C17 15.6739 16.4732 14.4021 15.5355 13.4645C14.5979 12.5268 13.3261 12 12 12Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </button>
-            </div>
+      <div class="header-container">
+        <div class="header-left">
+          <a href="branches.html">Филиалы</a>
+          <a href="support.html">Поддержка</a>
+          <a href="shop.html">Каталог</a>
+          <a href="health.html">Здоровье</a>
         </div>
+        <div class="logo">
+          <a href="index.html">DIVOptica</a>
+        </div>
+        <div class="header-right">
+          <a href="info.html">О нас</a>
+          <a href="service.html">Сервис</a>
+          <button class="account-button">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12ZM12 12C10.6739 12 9.40215 12.5268 8.46447 13.4645C7.52678 14.4021 7 15.6739 7 17V20H17V17C17 15.6739 16.4732 14.4021 15.5355 13.4645C14.5979 12.5268 13.3261 12 12 12Z"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
     </header>
 
     <main>
-        <section class="slider-section">
-            <div class="slider">
-                <div class="slide active" style="background-image: url('media/slider/slide1.jpg');"></div>
-                <div class="slide" style="background-image: url('media/slider/slide2.jpg');"></div>
-                <div class="slide" style="background-image: url('media/slider/slide3.jpg');"></div>
-                <button class="slider-btn prev">&lt;</button>
-                <button class="slider-btn next">&gt;</button>
-            </div>
-        </section>
-        <section class="featured-products">
-            <h2>Товары недели</h2>
-            <div class="product-carousel"></div>
-        </section>
-        <section class="promo-banner-pair">
-            <div class="banner-content">
-                <h2>Выберите свою пару прямо сейчас</h2>
-                <a href="shop.html" class="btn">Выбрать свою пару</a>
-            </div>
-            <div class="banner-image"><img src="media/promo-pair.jpg" alt="Очки"></div>
-        </section>
-        <section class="about-us-promo">
-            <div class="about-text">
-                <h3>О нашей компании</h3>
-                <p>Мы предлагаем широкий ассортимент качественной оптики и профессиональные услуги по подбору и уходу за вашими глазами. Наша миссия — сделать зрение каждого клиента ясным и комфортным.</p>
-                <a href="info.html" class="btn">Узнать больше</a>
-            </div>
-            <div class="about-image"></div>
-        </section>
-        <section class="health-promo">
-            <div class="specialist-card">
-                <img src="media/specialist.jpg" alt="Ведущий специалист">
-                <h4>Иванова Мария Петровна</h4>
-                <p>Офтальмолог с 15-летним стажем</p>
-            </div>
-            <div class="health-content">
-                <h2>Проверьте зрение</h2>
-                <p>Не откладывайте заботу о своем зрении. Запишитесь на прием к одному из наших ведущих специалистов.</p>
-                <a href="healty.html" class="btn">Проверить здоровье</a>
-            </div>
-        </section>
+      <section class="slider-section">
+        <div class="slider">
+          <div
+            class="slide active"
+            style="background-image: url(&quot;media/slider/slide1.jpg&quot;)"
+          ></div>
+          <div
+            class="slide"
+            style="background-image: url(&quot;media/slider/slide2.jpg&quot;)"
+          ></div>
+          <div
+            class="slide"
+            style="background-image: url(&quot;media/slider/slide3.jpg&quot;)"
+          ></div>
+          <button class="slider-btn prev">&lt;</button>
+          <button class="slider-btn next">&gt;</button>
+        </div>
+      </section>
+      <section class="featured-products">
+        <h2>Товары недели</h2>
+        <div class="product-carousel"></div>
+      </section>
+      <section class="promo-banner-pair">
+        <div class="banner-content">
+          <h2>Выберите свою пару прямо сейчас</h2>
+          <a href="shop.html" class="btn">Выбрать свою пару</a>
+        </div>
+        <div class="banner-image">
+          <img src="media/promo-pair.jpg" alt="Очки" />
+        </div>
+      </section>
+      <section class="about-us-promo">
+        <div class="about-text">
+          <h3>О нашей компании</h3>
+          <p>
+            Мы предлагаем широкий ассортимент качественной оптики и
+            профессиональные услуги по подбору и уходу за вашими глазами. Наша
+            миссия — сделать зрение каждого клиента ясным и комфортным.
+          </p>
+          <a href="info.html" class="btn">Узнать больше</a>
+        </div>
+        <div class="about-image"></div>
+      </section>
+      <section class="health-promo">
+        <div class="specialist-card">
+          <img src="media/specialist.jpg" alt="Ведущий специалист" />
+          <h4>Иванова Мария Петровна</h4>
+          <p>Офтальмолог с 15-летним стажем</p>
+        </div>
+        <div class="health-content">
+          <h2>Проверьте зрение</h2>
+          <p>
+            Не откладывайте заботу о своем зрении. Запишитесь на прием к одному
+            из наших ведущих специалистов.
+          </p>
+          <a href="health.html" class="btn">Проверить здоровье</a>
+        </div>
+      </section>
     </main>
 
     <footer class="site-footer">
-        <div class="footer-container">
-            <p>&copy; 2026 DIVOptica. Все права защищены.</p>
-        </div>
+      <div class="footer-container">
+        <p>&copy; 2026 DIVOptica. Все права защищены.</p>
+      </div>
     </footer>
-    
-    <div id="admin-modal"><div class="admin-modal-content"><div class="admin-header"><h2>Админ-панель</h2><button class="admin-modal-close">&times;</button></div><div class="admin-body"><nav class="admin-tabs"><button class="admin-tab-btn active" data-tab="product-manage-tab">Товары</button><button class="admin-tab-btn" data-tab="order-manage-tab">Заказы</button><button class="admin-tab-btn" data-tab="user-manage-tab">Пользователи</button><button class="admin-tab-btn" data-tab="content-manage-tab">Контент</button></nav><div class="admin-tab-content active" id="product-manage-tab"><div id="product-manage-tab-content"></div></div><div class="admin-tab-content" id="order-manage-tab"><p>Управление заказами...</p></div><div class="admin-tab-content" id="user-manage-tab"><p>Управление пользователями...</p></div><div class="admin-tab-content" id="content-manage-tab"><p>Управление контентом...</p></div></div></div></div>
-    <div id="user-profile-modal" class="modal-overlay"><div class="profile-modal-content"><button class="profile-modal-close">&times;</button><div class="profile-modal-header"><nav class="profile-tabs"><button class="profile-tab-btn" data-tab="profile-tab">Мои данные</button><button class="profile-tab-btn" data-tab="orders-tab">История заказов</button><button class="profile-tab-btn active" data-tab="cart-tab">Корзина (0)</button><button class="profile-tab-btn" data-tab="favorites-tab">Избранное</button></nav></div><div id="profile-tab" class="profile-tab-content"></div><div id="orders-tab" class="profile-tab-content"></div><div id="cart-tab" class="profile-tab-content active"></div><div id="favorites-tab" class="profile-tab-content"></div></div></div>
-    <div id="auth-modal" class="modal-overlay"><div class="auth-modal-content"><button class="auth-modal-close">&times;</button><div id="login-form" class="auth-form active"><h2>Вход в личный кабинет</h2><form><div class="form-group"><label for="login-email">Email</label><input type="email" id="login-email" required></div><div class="form-group"><label for="login-password">Пароль</label><input type="password" id="login-password" required></div><p class="error-message"></p><button type="submit" class="auth-btn">Войти</button><a href="#" id="show-recover" class="form-link">Забыли пароль?</a><a href="#" id="show-register" class="form-link">Зарегистрироваться</a></form></div><div id="register-form" class="auth-form"><h2>Создание аккаунта</h2><form><div class="form-group"><label for="register-name">Имя</label><input type="text" id="register-name" required></div><div class="form-group"><label for="register-email">Email</label><input type="email" id="register-email" required></div><div class="form-group"><label for="register-password">Пароль</label><input type="password" id="register-password" required></div><div class="form-group"><label for="register-confirm-password">Повторите пароль</label><input type="password" id="register-confirm-password" required></div><p class="error-message"></p><button type="submit" class="auth-btn">Зарегистрироваться</button><a href="#" id="show-login" class="form-link">Уже есть аккаунт? Войти</a></form></div><div id="recover-form" class="auth-form"><h2>Восстановление доступа</h2><form><div class="form-group"><label for="recover-email">Email</label><input type="email" id="recover-email" required></div><p class="error-message"></p><button type="submit" class="auth-btn">Отправить</button><a href="#" id="back-to-login" class="form-link">Назад ко входу</a></form></div></div></div>
+
+    <div id="admin-modal">
+      <div class="admin-modal-content">
+        <div class="admin-header">
+          <h2>Админ-панель</h2>
+          <button class="admin-modal-close">&times;</button>
+        </div>
+        <div class="admin-body">
+          <nav class="admin-tabs">
+            <button class="admin-tab-btn active" data-tab="product-manage-tab">
+              Товары</button
+            ><button class="admin-tab-btn" data-tab="order-manage-tab">
+              Заказы</button
+            ><button class="admin-tab-btn" data-tab="user-manage-tab">
+              Пользователи</button
+            ><button class="admin-tab-btn" data-tab="content-manage-tab">
+              Контент
+            </button>
+          </nav>
+          <div class="admin-tab-content active" id="product-manage-tab">
+            <div id="product-manage-tab-content"></div>
+          </div>
+          <div class="admin-tab-content" id="order-manage-tab">
+            <p>Управление заказами...</p>
+          </div>
+          <div class="admin-tab-content" id="user-manage-tab">
+            <p>Управление пользователями...</p>
+          </div>
+          <div class="admin-tab-content" id="content-manage-tab">
+            <p>Управление контентом...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="user-profile-modal" class="modal-overlay">
+      <div class="profile-modal-content">
+        <button class="profile-modal-close">&times;</button>
+        <div class="profile-modal-header">
+          <nav class="profile-tabs">
+            <button class="profile-tab-btn" data-tab="profile-tab">
+              Мои данные</button
+            ><button class="profile-tab-btn" data-tab="orders-tab">
+              История заказов</button
+            ><button class="profile-tab-btn active" data-tab="cart-tab">
+              Корзина (0)</button
+            ><button class="profile-tab-btn" data-tab="favorites-tab">
+              Избранное
+            </button>
+          </nav>
+        </div>
+        <div id="profile-tab" class="profile-tab-content"></div>
+        <div id="orders-tab" class="profile-tab-content"></div>
+        <div id="cart-tab" class="profile-tab-content active"></div>
+        <div id="favorites-tab" class="profile-tab-content"></div>
+      </div>
+    </div>
+    <div id="auth-modal" class="modal-overlay">
+      <div class="auth-modal-content">
+        <button class="auth-modal-close">&times;</button>
+        <div id="login-form" class="auth-form active">
+          <h2>Вход в личный кабинет</h2>
+          <form>
+            <div class="form-group">
+              <label for="login-email">Email</label
+              ><input type="email" id="login-email" required />
+            </div>
+            <div class="form-group">
+              <label for="login-password">Пароль</label
+              ><input type="password" id="login-password" required />
+            </div>
+            <p class="error-message"></p>
+            <button type="submit" class="auth-btn">Войти</button
+            ><a href="#" id="show-recover" class="form-link">Забыли пароль?</a
+            ><a href="#" id="show-register" class="form-link"
+              >Зарегистрироваться</a
+            >
+          </form>
+        </div>
+        <div id="register-form" class="auth-form">
+          <h2>Создание аккаунта</h2>
+          <form>
+            <div class="form-group">
+              <label for="register-name">Имя</label
+              ><input type="text" id="register-name" required />
+            </div>
+            <div class="form-group">
+              <label for="register-email">Email</label
+              ><input type="email" id="register-email" required />
+            </div>
+            <div class="form-group">
+              <label for="register-password">Пароль</label
+              ><input type="password" id="register-password" required />
+            </div>
+            <div class="form-group">
+              <label for="register-confirm-password">Повторите пароль</label
+              ><input type="password" id="register-confirm-password" required />
+            </div>
+            <p class="error-message"></p>
+            <button type="submit" class="auth-btn">Зарегистрироваться</button
+            ><a href="#" id="show-login" class="form-link"
+              >Уже есть аккаунт? Войти</a
+            >
+          </form>
+        </div>
+        <div id="recover-form" class="auth-form">
+          <h2>Восстановление доступа</h2>
+          <form>
+            <div class="form-group">
+              <label for="recover-email">Email</label
+              ><input type="email" id="recover-email" required />
+            </div>
+            <p class="error-message"></p>
+            <button type="submit" class="auth-btn">Отправить</button
+            ><a href="#" id="back-to-login" class="form-link">Назад ко входу</a>
+          </form>
+        </div>
+      </div>
+    </div>
 
     <script src="js/main.js"></script>
     <script src="js/auth.js"></script>
     <script src="js/cart.js"></script>
     <script src="js/admin.js"></script>
-</body>
+  </body>
 </html>

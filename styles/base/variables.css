@@ -1,0 +1,33 @@
+:root {
+  /* Цветовая палитра */
+  --color-white: #ffffff;
+  --color-dark: #333;
+  --color-text-secondary: #555;
+  --color-background: #f4f4f9;
+  
+  --color-primary: #007aff;
+  --color-primary-dark: #0056b3;
+  --color-danger: #d9534f;
+
+  --color-light-gray-1: #f8f8f8;
+  --color-light-gray-2: #f9f9f9;
+  --color-light-gray-3: #f2f2f2;
+  --color-light-gray-4: #f0f0f0;
+  --color-light-gray-5: #eee;
+
+  --color-gray-1: #e9ecef;
+  --color-gray-2: #ddd;
+  --color-gray-3: #ccc;
+  --color-gray-5: #999;
+
+  --color-overlay: rgba(0, 0, 0, 0.65);
+  --color-overlay-dark: rgba(0, 0, 0, 0.5);
+  --color-overlay-light: rgba(0, 0, 0, 0.4);
+  --color-overlay-hover: rgba(0, 0, 0, 0.1);
+
+  --color-shadow: rgba(0, 0, 0, 0.05);
+  --color-shadow-light: rgba(0, 0, 0, 0.1);
+  --color-shadow-medium: rgba(0, 0, 0, 0.15);
+
+  --color-transparent: transparent;
+}

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DIVOptica - Каталог</title>
+    <title>Наши филиалы - DIVOptica</title>
     <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
@@ -42,48 +42,28 @@
       </div>
     </header>
 
-    <main class="shop-main">
-      <aside class="filters-sidebar">
-        <h3>Фильтры</h3>
-        <div class="filter-group">
-          <h4>Поиск</h4>
-          <input
-            type="search"
-            id="search-box"
-            placeholder="Название или бренд..."
-          />
-        </div>
-        <div class="filter-group">
-          <h4>Категория</h4>
-          <div id="category-filter"></div>
-        </div>
-        <div class="filter-group">
-          <h4>Подкатегория</h4>
-          <div id="subcategory-filter"></div>
-        </div>
-        <div class="filter-group">
-          <h4>Бренд</h4>
-          <div id="brand-filter"></div>
-        </div>
-        <div class="filter-group">
-          <h4>Цена</h4>
-          <div class="price-slider">
-            <input
-              type="range"
-              id="price-range"
-              min="0"
-              max="50000"
-              value="50000"
-            />
-            <div class="price-range-values">
-              <span>0 ₽</span> - <span id="price-max-value">50000 ₽</span>
-            </div>
+    <main>
+      <div class="branch-page">
+        <section class="map-container">
+          <h2>Наши магазины на карте</h2>
+          <div class="map-placeholder">[Здесь будет интерактивная карта]</div>
+        </section>
+        <section class="branch-list">
+          <h2>Список филиалов</h2>
+          <div class="branch-item">
+            <h3>Филиал "Центральный"</h3>
+            <p>Адрес: г. Москва, ул. Тверская, д. 1</p>
+            <p>Телефон: +7 (495) 123-45-67</p>
+            <p>Часы работы: 10:00 - 22:00</p>
           </div>
-        </div>
-      </aside>
-      <section class="product-grid-container">
-        <div id="product-grid" class="product-grid"></div>
-      </section>
+          <div class="branch-item">
+            <h3>Филиал "Южный"</h3>
+            <p>Адрес: г. Москва, ул. Варшавское шоссе, д. 87</p>
+            <p>Телефон: +7 (495) 765-43-21</p>
+            <p>Часы работы: 09:00 - 21:00</p>
+          </div>
+        </section>
+      </div>
     </main>
 
     <footer class="site-footer">
@@ -92,22 +72,6 @@
       </div>
     </footer>
 
-    <div id="category-modal" class="modal-overlay active">
-      <div class="modal-content">
-        <h2>Выберите категорию</h2>
-        <div class="category-selection">
-          <button class="category-choice-btn" data-category="Очки">Очки</button
-          ><button class="category-choice-btn" data-category="Аксессуары">
-            Аксессуары</button
-          ><button
-            class="category-choice-btn"
-            data-category="Средства для ухода"
-          >
-            Средства для ухода
-          </button>
-        </div>
-      </div>
-    </div>
     <div id="admin-modal">
       <div class="admin-modal-content">
         <div class="admin-header">
@@ -227,7 +191,6 @@
     </div>
 
     <script src="js/main.js"></script>
-    <script src="js/shop.js"></script>
     <script src="js/auth.js"></script>
     <script src="js/cart.js"></script>
     <script src="js/admin.js"></script>

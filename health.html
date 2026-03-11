@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DIVOptica - Каталог</title>
+    <title>Здоровье глаз - DIVOptica</title>
     <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
@@ -42,48 +42,39 @@
       </div>
     </header>
 
-    <main class="shop-main">
-      <aside class="filters-sidebar">
-        <h3>Фильтры</h3>
-        <div class="filter-group">
-          <h4>Поиск</h4>
-          <input
-            type="search"
-            id="search-box"
-            placeholder="Название или бренд..."
-          />
-        </div>
-        <div class="filter-group">
-          <h4>Категория</h4>
-          <div id="category-filter"></div>
-        </div>
-        <div class="filter-group">
-          <h4>Подкатегория</h4>
-          <div id="subcategory-filter"></div>
-        </div>
-        <div class="filter-group">
-          <h4>Бренд</h4>
-          <div id="brand-filter"></div>
-        </div>
-        <div class="filter-group">
-          <h4>Цена</h4>
-          <div class="price-slider">
-            <input
-              type="range"
-              id="price-range"
-              min="0"
-              max="50000"
-              value="50000"
-            />
-            <div class="price-range-values">
-              <span>0 ₽</span> - <span id="price-max-value">50000 ₽</span>
+    <main>
+      <div class="health-page">
+        <section class="vision-test">
+          <h2>Интерактивный тест зрения</h2>
+          <p>
+            Этот простой тест поможет вам выявить возможные проблемы.
+            <strong>Внимание:</strong> онлайн-тест не заменяет полноценный визит
+            к врачу.
+          </p>
+          <div class="test-placeholder">
+            <p>Здесь будет интерактивный тест на астигматизм / дальтонизм.</p>
+          </div>
+        </section>
+        <section class="specialists">
+          <h2>Наши специалисты</h2>
+          <div class="specialists-grid">
+            <div class="specialist-card">
+              <img src="media/specialist.jpg" alt="Специалист 1" />
+              <h4>Иванова Мария Петровна</h4>
+              <p>Офтальмолог, стаж 15 лет</p>
+            </div>
+            <div class="specialist-card">
+              <img src="media/specialist2.jpg" alt="Специалист 2" />
+              <h4>Петров Василий Игоревич</h4>
+              <p>Оптометрист, стаж 10 лет</p>
             </div>
           </div>
-        </div>
-      </aside>
-      <section class="product-grid-container">
-        <div id="product-grid" class="product-grid"></div>
-      </section>
+        </section>
+        <section class="appointment-form">
+          <h2>Запись на прием</h2>
+          <form><p>Здесь будет форма для онлайн-записи к врачу.</p></form>
+        </section>
+      </div>
     </main>
 
     <footer class="site-footer">
@@ -92,22 +83,6 @@
       </div>
     </footer>
 
-    <div id="category-modal" class="modal-overlay active">
-      <div class="modal-content">
-        <h2>Выберите категорию</h2>
-        <div class="category-selection">
-          <button class="category-choice-btn" data-category="Очки">Очки</button
-          ><button class="category-choice-btn" data-category="Аксессуары">
-            Аксессуары</button
-          ><button
-            class="category-choice-btn"
-            data-category="Средства для ухода"
-          >
-            Средства для ухода
-          </button>
-        </div>
-      </div>
-    </div>
     <div id="admin-modal">
       <div class="admin-modal-content">
         <div class="admin-header">
@@ -227,7 +202,6 @@
     </div>
 
     <script src="js/main.js"></script>
-    <script src="js/shop.js"></script>
     <script src="js/auth.js"></script>
     <script src="js/cart.js"></script>
     <script src="js/admin.js"></script>

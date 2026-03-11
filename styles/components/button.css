@@ -1,0 +1,78 @@
+/* Глобальные стили кнопок */
+.btn, .auth-btn, .category-choice-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border: 1px solid var(--color-transparent);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+/* Стили для кнопок аутентификации */
+.auth-btn {
+    width: 100%;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+.auth-btn:hover {
+    background-color: var(--color-primary-dark);
+}
+
+/* Кнопки выбора категории */
+.category-choice-btn {
+    background-color: var(--color-light-gray-1);
+    border-color: var(--color-gray-2);
+    padding: 15px 30px;
+}
+.category-choice-btn:hover {
+    background-color: var(--color-gray-1);
+    border-color: var(--color-gray-3);
+}
+
+/* Кнопки в корзине */
+.quantity-btn {
+    padding: 2px 8px;
+    cursor: pointer;
+    border: 1px solid var(--color-gray-2);
+    background-color: var(--color-light-gray-2);
+}
+
+.remove-item-btn {
+    color: var(--color-danger);
+    cursor: pointer;
+    text-decoration: underline;
+    border: none;
+    background: none;
+}
+
+/* Кнопка "Добавить в корзину" */
+.add-to-cart-btn {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+    background-color: var(--color-primary-dark);
+}
+
+.btn {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 12px 25px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: var(--color-primary-dark);
+}

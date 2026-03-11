@@ -1,0 +1,93 @@
+/* Общие стили для модальных окон */
+.modal-overlay, #admin-modal, #user-profile-modal, #auth-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-overlay);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal-overlay.active, #admin-modal.active, #user-profile-modal.active, #auth-modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Базовый контент модального окна */
+.modal-content, .auth-modal-content, .profile-modal-content, .admin-modal-content {
+    background-color: var(--color-white);
+    border-radius: 10px;
+    position: relative;
+    padding: 30px;
+}
+
+/* Стили для кнопки закрытия */
+.modal-close, .auth-modal-close, .profile-modal-close, .admin-modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+/* Контент модального окна аутентификации */
+.auth-modal-content {
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Контент модального окна профиля */
+.profile-modal-content {
+    max-width: 800px;
+    width: 100%;
+    height: 80vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Контент модального окна админ-панели */
+.admin-modal-content {
+    width: 90%;
+    max-width: 1000px;
+    height: 90vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--color-gray-2);
+}
+.admin-header h2 { margin: 0; }
+
+.admin-body {
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.profile-modal-header {
+    padding: 20px;
+    border-bottom: 1px solid var(--color-light-gray-5);
+}
+
+.category-selection {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}

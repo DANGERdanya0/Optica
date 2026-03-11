@@ -1,0 +1,22 @@
+@import 'base/variables.css';
+@import 'base/reset.css';
+@import 'base/global.css';
+
+/* Layout */
+@import 'layout/container.css';
+@import 'layout/header.css';
+@import 'layout/footer.css';
+@import 'layout/shop-layout.css';
+
+/* Components */
+@import 'components/modal.css';
+@import 'components/button.css';
+@import 'components/form.css';
+@import 'components/card.css';
+@import 'components/tabs.css';
+@import 'components/table.css';
+@import 'components/slider.css';
+
+/* Pages */
+@import 'pages/home.css';
+

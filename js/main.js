@@ -34,16 +34,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
 
-    // Side Menu Logic
-    const menuToggle = document.querySelector('.menu-toggle');
-    const sideMenu = document.querySelector('.side-menu');
-
-    if(menuToggle) {
-        menuToggle.addEventListener('click', () => {
-            if(sideMenu) sideMenu.classList.toggle('open');
-        });
-    }
-
     // --- Product Loading Logic ---
     const productCarousel = document.querySelector('.product-carousel');
 

@@ -1,0 +1,16 @@
+/* Стили для раскладки страницы магазина */
+.shop-main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-grid-container {
+    flex-grow: 1;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}

@@ -1,0 +1,79 @@
+/* Общие стили форм */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--color-gray-2);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: var(--color-primary);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.form-link:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    color: var(--color-danger);
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Стили для форм аутентификации */
+.auth-form {
+    display: none;
+}
+.auth-form.active {
+    display: block;
+}
+.auth-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Сайдбар с фильтрами */
+.filters-sidebar {
+    width: 250px;
+    flex-shrink: 0;
+    background-color: var(--color-white);
+    padding: 20px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.filter-group {
+    margin-bottom: 25px;
+}
+
+.filter-group h4 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--color-light-gray-5);
+    padding-bottom: 5px;
+}
+
+.filter-group input[type="search"] {
+    width: 100%;
+}
+
+.filter-group div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

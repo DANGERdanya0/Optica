@@ -1,0 +1,15 @@
+/* Стили для таблиц (админ-панель) */
+#product-manage-tab table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#product-manage-tab th, #product-manage-tab td {
+    border: 1px solid var(--color-gray-2);
+    padding: 8px;
+    text-align: left;
+}
+
+#product-manage-tab th {
+    background-color: var(--color-light-gray-3);
+}
