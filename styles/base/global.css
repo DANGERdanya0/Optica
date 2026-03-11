@@ -4,10 +4,14 @@ body {
     margin: 0;
     background-color: var(--color-background);
     color: var(--color-dark);
+    padding-top: 110px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 /* Main content */
 main {
-    padding: 0 20px;
+    flex-grow: 1;
 }
 h2 {
     text-align: center;

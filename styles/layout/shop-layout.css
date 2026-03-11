@@ -2,7 +2,6 @@
 .shop-main {
     display: flex;
     gap: 20px;
-    padding: 20px;
 }
 
 .product-grid-container {
