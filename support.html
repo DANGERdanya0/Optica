@@ -7,40 +7,7 @@
     <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="header-container container">
-        <div class="header-left">
-          <a href="branches.html">Филиалы</a>
-          <a href="support.html">Поддержка</a>
-          <a href="shop.html">Каталог</a>
-          <a href="health.html">Здоровье</a>
-        </div>
-        <div class="logo">
-          <a href="index.html">DIVOptica</a>
-        </div>
-        <div class="header-right">
-          <a href="info.html">О нас</a>
-          <a href="service.html">Сервис</a>
-          <button class="account-button">
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12ZM12 12C10.6739 12 9.40215 12.5268 8.46447 13.4645C7.52678 14.4021 7 15.6739 7 17V20H17V17C17 15.6739 16.4732 14.4021 15.5355 13.4645C14.5979 12.5268 13.3261 12 12 12Z"
-                stroke="black"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </button>
-        </div>
-      </div>
-    </header>
+    <site-header></site-header>
 
     <main>
       <div class="support-page container">
@@ -130,7 +97,12 @@
             </button>
           </nav>
         </div>
-        <div id="profile-tab" class="profile-tab-content"></div>
+        <div id="profile-tab" class="profile-tab-content">
+            <h3>Мои данные</h3>
+            <p>Email: user@example.com</p>
+            <p>Имя: Джон Доу</p>
+            <button id="logout-btn" class="btn">Выйти</button>
+        </div>
         <div id="orders-tab" class="profile-tab-content"></div>
         <div id="cart-tab" class="profile-tab-content active"></div>
         <div id="favorites-tab" class="profile-tab-content"></div>
@@ -199,6 +171,7 @@
       </div>
     </div>
 
+    <script src="js/components/Header.js"></script>
     <script src="js/main.js"></script>
     <script src="js/auth.js"></script>
     <script src="js/cart.js"></script>

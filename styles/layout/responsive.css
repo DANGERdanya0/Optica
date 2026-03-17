@@ -1,0 +1,34 @@
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+    /* Main Content */
+    .promo-banner-pair, .about-us-promo, .health-promo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .promo-banner-pair .banner-image, .about-us-promo .about-image {
+        width: 100%;
+        height: 200px;
+    }
+
+    .health-promo {
+        flex-direction: column-reverse;
+    }
+
+    /* Product Carousel */
+    .product-carousel {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Slider */
+    .slider {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+    }
+
+    .slider-btn {
+        padding: 15px;
+    }
+}

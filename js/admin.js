@@ -46,6 +46,26 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (adminModal) adminModal.classList.remove('active');
             });
         }
+
+        function setupModalClosing(modal) {
+            if (!modal) return;
+            let mouseDownOnOverlay = false;
+    
+            modal.addEventListener('mousedown', (e) => {
+                if (e.target === modal) {
+                    mouseDownOnOverlay = true;
+                }
+            });
+    
+            modal.addEventListener('mouseup', (e) => {
+                if (e.target === modal && mouseDownOnOverlay) {
+                    modal.classList.remove('active');
+                }
+                mouseDownOnOverlay = false;
+            });
+        }
+    
+        setupModalClosing(adminModal);
         
         tabButtons.forEach(button => {
             button.addEventListener('click', () => {

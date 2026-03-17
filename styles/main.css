@@ -4,7 +4,6 @@
 
 /* Layout */
 @import 'layout/container.css';
-@import 'layout/header.css';
 @import 'layout/footer.css';
 @import 'layout/shop-layout.css';
 
@@ -19,4 +18,7 @@
 
 /* Pages */
 @import 'pages/home.css';
+
+/* Responsive */
+@import 'layout/responsive.css';
 
